@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  padding: 2rem 5rem;
+  background: transparent;
+  font-size: 1.7rem;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #fff; 
+  background: aqua;
+  border: 1px solid aqua;
+  text-shadow: 
+    0 0 .5rem #fff,
+    0 0 1rem #fff,
+    0 0 2rem #fff;
+  box-shadow:
+    0 0 2rem  aqua,
+    0 0 5rem  aqua,
+    0 0 10rem  aqua;
+
+}
